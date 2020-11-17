@@ -66,7 +66,8 @@ class TodoController extends Controller
      */
     public function edit(Todo $todo)
     {
-        //
+        return view('todo.edit')->with('todo',$todo);
+
     }
 
     /**

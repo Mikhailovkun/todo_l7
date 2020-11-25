@@ -10907,6 +10907,19 @@ body {
   width: 100vw;
   height: 100vh;
   background: #eeaeca;
-  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+  margin-left: -5px;
+}
+
+ion-icon {
+  font-size: 32px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.icon.is-check {
+  fill: #FE4365;
 }
 
